@@ -56,6 +56,7 @@ function Navbar() {
         <a href="#home" className="block px-4 py-2 hover:bg-gray-700 rounded">Home</a>
         <a href="#about" className="block px-4 py-2 hover:bg-gray-700 rounded">About</a>
         <a href="#contact" className="block px-4 py-2 hover:bg-gray-700 rounded">Contact</a>
+        
       </div>
     </nav>
   );
