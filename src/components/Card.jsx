@@ -1,47 +1,55 @@
 import React from 'react';
 import { FaGithub } from "react-icons/fa";
 import { LuSquareArrowOutUpRight } from "react-icons/lu";
+import Github from "../assets/img/GitHub.png";
+import discnew from "../assets/img/discnew.png";
+import Sorting from "../assets/img/Sorting.png";
+import stopWatch from "../assets/img/stopWatch.webp";
+import Food from "../assets/img/Food.png";
+import Password from "../assets/img/Password.png";
+
+
 
 const projects = [
     {
         title: "GitHub Data Fetch",
         description: "The GitHub Data Fetch app allows users to search for GitHub users.",
-        image: "/img/Github.png",
+        image: Github,
         github: "https://github.com/ramesh9256/Git-hub-fetch",
         liveDemo: "https://git-hub-fetch.vercel.app/",
     },
     {
         title: "English Dictionary",
         description: "The English Dictionary application allows users to search for word meanings and synonyms.",
-        image: "/img/discnew.png",
+        image: discnew,
         github: "https://github.com/ramesh9256/English-Dictionary",
         liveDemo: "https://english-dictionary-orpin-xi.vercel.app/",
     },
     {
         title: "Sorting Application",
         description: "The Sorting Application allows users to sort cards details in ascending and descending order.",
-        image: "/img/Sorting.png",
+        image: Sorting,
         github: "https://github.com/ramesh9256/Sorting-application",
         liveDemo: "https://sorting-application-kappa.vercel.app/",
     },
     {
         title: "Stopwatch using JS",
         description: "The Stopwatch Application is a simple and efficient tool designed for timing events.",
-        image: "/img/pexels-photo-1010513.webp",
+        image: stopWatch,
         github: "https://github.com/ramesh9256/Stopwatch",
         liveDemo: "https://stopwatch-six-murex.vercel.app/",
     },
     {
         title: "Food Website",
         description: "A visually appealing and user-friendly website designed for food enthusiasts. It showcases a variety of delicious recipes, vibrant food images, and an intuitive interface for easy navigation.",
-        image: "/img/Screenshot 2025-01-16 123026.png",
+        image: Food,
         github: "https://github.com/ramesh9256/food-website",
         liveDemo: "https://food-website-three-wine.vercel.app/",
     },
     {
         title: "Random Password Generator",
         description: "The Random Password Generator application allows users to generate random passwords.",
-        image: "/img/Password.png",
+        image: Password,
         github: "https://github.com/ramesh9256/Random-password-generator",
         liveDemo: "https://random-password-generator-ten-rouge.vercel.app/",
     },

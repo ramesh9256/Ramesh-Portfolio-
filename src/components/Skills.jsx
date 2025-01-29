@@ -10,7 +10,7 @@ const Skills = () => {
   return (
     <section id="skills" className="py-16 bg-neutral-800">
       <div className="container flex flex-col items-center mx-auto px-4">
-        <h2 className="text-3xl font-semibold text-center mb-12 text-gray-300">
+        <h2 className="text-3xl font-semibold text-center mb-12 text-gray-600">
           My Skills
         </h2>
         <div className="flex flex-wrap  gap-12 justify-center align-middle ">
