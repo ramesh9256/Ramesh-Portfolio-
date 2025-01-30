@@ -27,7 +27,7 @@ const About = () => {
           </p>
           <div>
             <a
-              href="./resume.pdf"
+              href="./Resume.pdf"
               className="bg-gray-500 text-white py-3 px-8 rounded-lg inline-block hover:bg-blue-600 transition duration-300 shadow-md"
             >
               Get CV
