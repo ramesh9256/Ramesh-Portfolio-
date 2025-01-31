@@ -21,7 +21,7 @@ const Contact = () => {
             <input
               type="hidden"
               name="redirect"
-              value="https://thanku-page.vercel.app/"
+              value="https://thanku-page-using-react.vercel.app/"
             />
             <input
               type="text"
