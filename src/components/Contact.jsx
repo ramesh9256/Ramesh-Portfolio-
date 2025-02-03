@@ -18,7 +18,11 @@ const Contact = () => {
               name="access_key"
               value="d79ee2b8-ec2e-4bd5-a78c-79dbda8a3422"
             />
-            
+            <input
+              type="hidden"
+              name="redirect"
+              value="https://thanku-page-using-react.vercel.app/"
+            />
             <input
               type="text"
               name="name"
