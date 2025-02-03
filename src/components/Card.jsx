@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaGithub } from "react-icons/fa";
 import { LuSquareArrowOutUpRight } from "react-icons/lu";
-import Github from "../assets/img/GitHub.png";
 import discnew from "../assets/img/discnew.png";
 import Sorting from "../assets/img/Sorting.png";
 import stopWatch from "../assets/img/stopWatch.webp";
@@ -9,12 +8,12 @@ import Food from "../assets/img/Food.png";
 import Password from "../assets/img/Password.png";
 
 
-
+const github = "/img/github.png";
 const projects = [
     {
         title: "GitHub Data Fetch",
         description: "The GitHub Data Fetch app allows users to search for GitHub users.",
-        image: Github,
+        image: github,
         github: "https://github.com/ramesh9256/Git-hub-fetch",
         liveDemo: "https://git-hub-fetch.vercel.app/",
     },
