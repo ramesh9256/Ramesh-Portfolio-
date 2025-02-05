@@ -14,7 +14,7 @@ const Footer = () => {
           href="https://www.instagram.com/ramesh0003" 
           target="_blank" 
           rel="noopener noreferrer" 
-          className="hover:text-pink-600 transition-colors duration-300"
+          className=" text-[30px] hover:text-pink-600 transition-colors duration-300"
         >
           <FaInstagram />
         </a>
@@ -22,13 +22,13 @@ const Footer = () => {
           href="https://github.com/ramesh9256" 
           target="_blank" 
           rel="noopener noreferrer" 
-          className="hover:text-gray-500 transition-colors duration-300"
+          className=" text-[30px] hover:text-gray-500 transition-colors duration-300"
         >
           <IoLogoGithub />
         </a>
         <a 
           href="tel:+919256746259" 
-          className="hover:text-green-500 transition-colors duration-300"
+          className="text-[28px] hover:text-green-500 transition-colors duration-300"
         >
           <FaPhoneAlt />
         </a>
@@ -36,13 +36,13 @@ const Footer = () => {
           href="https://www.linkedin.com/in/ramesh-kumar-xyz" 
           target="_blank" 
           rel="noopener noreferrer" 
-          className="hover:text-blue-500 transition-colors duration-300"
+          className=" text-[30px] hover:text-blue-500 transition-colors duration-300"
         >
           <FaLinkedinIn />
         </a>
         <a 
           href="mailto:9256.ramesh.gmail.com" 
-          className="hover:text-yellow-400 transition-colors duration-300"
+          className=" text-[30px] hover:text-yellow-400 transition-colors duration-300"
         >
           <CgMail />
         </a>

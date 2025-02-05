@@ -57,11 +57,11 @@ const projects = [
 const Card = () => {
     return (
         <section id="projects" className="py-20 bg-neutral-800">
-            <div className="container mx-auto text-center">
+            <div className="container mx-auto text-center w-[80%]">
                 <h2 className="text-4xl font-bold mb-12 text-gray-600">My Projects</h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-8">  
                     {projects.map((project, index) => (
-                        <div className=" bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 max-w-xs mx-auto" key={index}>
+                        <div className=" bg-gray-800 rounded-lg shadow-lg overflow-hidden relative transform transition-all duration-500 ease-in-out hover:-translate-y-4 max-w-xs mx-auto" key={index}>
                             <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
                             <div className="p-6">
                                 <h3 className="text-xl font-semibold text-gray-200 mb-3">{project.title}</h3>

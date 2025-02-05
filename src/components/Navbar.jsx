@@ -11,7 +11,7 @@ function Navbar() {
     <nav className="bg-slate-900 text-white p-4 fixed w-full top-0 left-0 z-50 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo or Brand Name */}
-        <a href="/" className="text-2xl font-semibold text-gray-600">Ramesh</a>
+        <a href="/" className="text-3xl font-semibold text-gray-600">Ramesh</a>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-4">
