@@ -40,7 +40,7 @@ const Card = () => {
         <section id="projects" className="py-20 bg-neutral-800">
             <div className="container mx-auto text-center w-[80%]">
                 <h2 className="text-4xl font-bold mb-12 text-gray-600">My Projects</h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-4">  
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-8">  
                     {projects.map((project, index) => (
                         <div className=" bg-gray-800 rounded-lg shadow-lg overflow-hidden relative transform transition-all duration-500 ease-in-out hover:-translate-y-4 max-w-xs mx-auto" key={index}>
                             <div className="p-6">
