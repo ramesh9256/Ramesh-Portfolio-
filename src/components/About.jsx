@@ -29,7 +29,8 @@ const About = () => {
           <div>
             <a
               href={Resume}
-              className="bg-gray-500 text-white py-3 px-8 rounded-lg inline-block hover:bg-blue-600 transition duration-300 shadow-md" download
+              style={{fontFamily : "monospace" , letterSpacing : "1px"}}
+              className="bg-gray-600 text-white py-3 font-bold px-8 rounded-lg inline-block hover:bg-gray-700 transition duration-300 shadow-md" download
             >
               Get CV
             </a>

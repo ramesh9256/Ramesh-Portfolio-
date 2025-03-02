@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -11,7 +12,7 @@ function Navbar() {
     <nav className="bg-slate-900 text-white p-4 fixed w-full top-0 left-0 z-50 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo or Brand Name */}
-        <a href="/" className="text-3xl font-semibold text-gray-600">Ramesh</a>
+        <a href="/" className="text-3xl font-semibold text-gray-600 font-mono">Ramesh</a>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-4">
@@ -51,13 +52,17 @@ function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
-      <div className={`md:hidden ${isMobileMenuOpen ? "block" : "hidden"}`}>
+      {/* Mobile Menu with Smooth Animation */}
+      <motion.div 
+        initial={{ height: 0, opacity: 0 }}
+        animate={{ height: isMobileMenuOpen ? "auto" : 0, opacity: isMobileMenuOpen ? 1 : 0 }}
+        transition={{ duration: 0.3, ease: "easeInOut" }}
+        className="overflow-hidden md:hidden"
+      >
         <a href="#home" className="block px-4 py-2 hover:bg-gray-700 rounded">Home</a>
         <a href="#about" className="block px-4 py-2 hover:bg-gray-700 rounded">About</a>
         <a href="#contact" className="block px-4 py-2 hover:bg-gray-700 rounded">Contact</a>
-        
-      </div>
+      </motion.div>
     </nav>
   );
 }
