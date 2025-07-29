@@ -18,34 +18,35 @@ function Navbar() {
         <div className="hidden md:flex space-x-4">
           <a href="#home" className="px-4 py-2 hover:bg-gray-700 rounded">Home</a>
           <a href="#about" className="px-4 py-2 hover:bg-gray-700 rounded">About</a>
+          <a href="#projects" className="block px-4 py-2 hover:bg-gray-700 rounded">Projects</a>
           <a href="#contact" className="px-4 py-2 hover:bg-gray-700 rounded">Contact</a>
         </div>
 
         {/* Mobile Menu Toggle */}
-        <button 
+        <button
           onClick={toggleMenu}
           className="md:hidden p-2 rounded focus:outline-none"
         >
-          <svg 
-            xmlns="http://www.w3.org/2000/svg" 
-            fill="none" 
-            viewBox="0 0 24 24" 
-            stroke="currentColor" 
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
             className="w-6 h-6 text-white"
           >
             {isMobileMenuOpen ? (
-              <path 
-                strokeLinecap="round" 
-                strokeLinejoin="round" 
-                strokeWidth="2" 
-                d="M6 18L18 6M6 6l12 12" 
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M6 18L18 6M6 6l12 12"
               />
             ) : (
-              <path 
-                strokeLinecap="round" 
-                strokeLinejoin="round" 
-                strokeWidth="2" 
-                d="M4 6h16M4 12h16M4 18h16" 
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16M4 18h16"
               />
             )}
           </svg>
@@ -53,7 +54,7 @@ function Navbar() {
       </div>
 
       {/* Mobile Menu with Smooth Animation */}
-      <motion.div 
+      <motion.div
         initial={{ height: 0, opacity: 0 }}
         animate={{ height: isMobileMenuOpen ? "auto" : 0, opacity: isMobileMenuOpen ? 1 : 0 }}
         transition={{ duration: 0.3, ease: "easeInOut" }}
@@ -61,6 +62,7 @@ function Navbar() {
       >
         <a href="#home" className="block px-4 py-2 hover:bg-gray-700 rounded">Home</a>
         <a href="#about" className="block px-4 py-2 hover:bg-gray-700 rounded">About</a>
+        <a href="#projects" className="block px-4 py-2 hover:bg-gray-700 rounded">Projects</a>
         <a href="#contact" className="block px-4 py-2 hover:bg-gray-700 rounded">Contact</a>
       </motion.div>
     </nav>

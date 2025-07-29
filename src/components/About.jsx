@@ -22,15 +22,17 @@ const About = () => {
           </h2>
           <p className="text-lg text-gray-200 leading-relaxed mb-6">
             Hey, I'm <span className="text-blue-400 font-semibold">Ramesh Kumar</span>,
-            a passionate full-stack developer with experience in creating responsive and dynamic web applications. 
-            I specialize in technologies like <span className="text-blue-400">HTML, CSS, JavaScript, React, Node.js,</span> 
+            a passionate full-stack developer with experience in creating responsive and dynamic web applications.
+            I specialize in technologies like <span className="text-blue-400">HTML, CSS, JavaScript, React, Node.js,</span>
             and <span className="text-blue-400">MongoDB</span>. With a strong foundation in problem-solving and communication skills, I strive to deliver impactful solutions.
           </p>
           <div>
             <a
               href={Resume}
-              style={{fontFamily : "monospace" , letterSpacing : "1px"}}
-              className="bg-gray-600 text-white py-3 font-bold px-8 rounded-lg inline-block hover:bg-gray-700 transition duration-300 shadow-md" download
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ fontFamily: "monospace", letterSpacing: "1px" }}
+              className="bg-gray-600 text-white py-3 font-bold px-8 rounded-lg inline-block hover:bg-gray-700 transition duration-300 shadow-md"
             >
               Get CV
             </a>
